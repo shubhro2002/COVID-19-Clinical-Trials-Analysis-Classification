@@ -78,4 +78,19 @@ To classify each trial into its **study phase** and **study type** based on stru
 |XGBoost (Phase)| 0.810790|
 |RF (Study Type)| 0.537234|
 |XGBoost (Study Type)| 0.519757|
+
+## Insights & Observations
+
+- Textual descriptions (title, interventions, outcomes) provided strong predictive signals.
+
+- Structured data such as Enrollment and Year improved overall model stability.
+
+- The timeline of trials aligns with real-world pandemic waves and vaccine deployment phases.
+
+## Future Work
+
+- Incorporate topic modeling (BERT embeddings) to capture deeper semantic patterns.
+
+- Implement explainable AI techniques (e.g., SHAP) for deeper interpretability.
+
 ---

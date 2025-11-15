@@ -71,4 +71,11 @@ To classify each trial into its **study phase** and **study type** based on stru
 ### Target Variable
 - `Phase` (Categorical), `Study Type`(Categorical)
 
+### Results
+| Model  | Accuracy  |
+| ------ | --------  |
+|RF (Phase)| 0.775076 |
+|XGBoost (Phase)| 0.810790|
+|RF (Study Type)| 0.537234|
+|XGBoost (Study Type)| 0.519757|
 ---

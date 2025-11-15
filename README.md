@@ -54,21 +54,21 @@ Exploratory analysis was performed to understand data trends, distributions, and
 - **Top Interventions and Conditions:** Showed vaccine- and drug-related studies dominating the dataset.
 - **Phase Distribution:** Identified imbalance between early and late-phase trials.
 - **Time-Series Trends:** Highlighted the evolution of COVID-19 studies over time.
+- **Map Visualization:** Plotted a choropleth map showing the count of trials in the world map by each country.
 
-> *EDA provided a strong foundation for selecting relevant features and preprocessing text data effectively.*
 
 ---
 
 ## Model Development
 
 ### Objective
-To classify each trial into its **study phase** based on structured and textual information.
+To classify each trial into its **study phase** and **study type** based on structured and textual information.
 
 ### Input Features
 - Textual: `Title`, `Interventions`, `Outcome Measures` (TF-IDF vectorized)  
 - Structured: `Enrollment`, `Year`, `Age_Group`
 
 ### Target Variable
-- `Phase` (Categorical)
+- `Phase` (Categorical), `Study Type`(Categorical)
 
 ---
